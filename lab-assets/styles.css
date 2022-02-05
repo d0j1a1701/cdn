@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    height:100%;
+}
+
+body {
+	height:100%; padding-top: 50px;
+	font-family: 'Roboto', sans-serif; color: #adbac7; font-size: .85rem;
+	background-color: #22272e;
+}
+
+#app {
+    height:100%;
+    display: flex; flex-direction:column;
+}
+
+.navbar {
+	background-color: #2d333b;
+	border-bottom: 1px solid #444c56;
+}
+
+.navbar-brand {
+	font-size: 1rem;
+}
+
+#banner {
+	background: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)), url('img/bk.jpg'); background-size: cover; background-position: center;
+}
+
+p {
+    margin-bottom: .5rem;
+}
+
+.card {
+	border: 1px solid #444c56;
+	background-color: #2d333b;
+}
+
+.card-header {
+	background: #324152;
+}
+
+.badge {
+	font-weight: 400;
+}
+
+.btn {
+    color: #adbac7; font-size: .85rem;
+    background-color: #373e47;
+    border-color: #cdd9e51a;
+}
+.btn:hover {
+	background-color: #444c56;
+	border-color: #768390;
+	color: #adbac7;
+}
+.btn:focus {
+	border-color: #768390;
+	outline: none;
+	box-shadow: 0 0 0 0.25rem rgba(118, 131, 144, .3);
+}
+.btn:active {
+	background-color: #3d444d;
+	border-color: #636e7b;
+}
+
+.border { border: 1px solid #444c56!important; }
+
+.text-normal { color: #adbac7!important; }
+
+.bg-dark { background-color: #1a1d21!important; }
+.bg-light { background-color: #2d333b!important; }

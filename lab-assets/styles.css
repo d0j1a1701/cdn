@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://gfonts.vercel.app/css2?family=Roboto&display=swap');
 
 html {
     height:100%;
@@ -25,7 +25,7 @@ body {
 }
 
 #banner {
-	background: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)), url('img/bk.jpg'); background-size: cover; background-position: center;
+	background: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)), url('https://cdn.jsdelivr.net/gh/dajia-1701/cdn@main/lab-assets/bk.jpg'); background-size: cover; background-position: center;
 }
 
 p {
